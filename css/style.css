@@ -141,17 +141,23 @@ button {
     border: none;
     width: 120px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 
 .btn1 {
+  text-transform: uppercase;
   background-color: #da2626;
   color: aliceblue;
 }
 .btn2 {
+  text-transform: uppercase;
   color: #000033;
   padding-left: 10px;
+}
+.main {
+    display: block;
+    height: fit-content;
 }
 .main_container {
     display: flex;
@@ -187,7 +193,7 @@ button {
 hr{
     position: relative;
     top: -20px;
-    right: 165px;
+    right: 158px;
     width: 45px;
     border: none;
     border-radius: 20%;
@@ -392,4 +398,342 @@ hr{
     color: aliceblue;
     text-transform: uppercase;
     font-size: .8rem;
+}
+
+.grid_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 140px;
+    padding-bottom: 30px;
+}
+.grid_text {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.grid_text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 210px;
+}
+
+.main_content {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 90%;
+}
+.grid_content {
+    display: flex;
+    grid-row: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    flex: 1;
+    gap: 20px;
+}
+.grid{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 360px;
+    background-color: whitesmoke;
+}
+
+.grid_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    margin: 12px;
+    position: relative;
+    left: 0px;
+}
+
+.grid h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.grid hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #da2626;
+    width: 20%;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+.grid p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.grid_btn {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+    background-color: #000033;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.comment_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+}
+
+.comment_txt h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    padding: 20px;
+}
+
+.comment_grids {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.comment_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+    width: 70%;
+    padding: 20px;
+}
+
+.comment {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 340px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.comment_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.comment p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 12px;
+}
+
+.update_container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+
+.update_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.update_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 800;
+} 
+.update_content {
+    background-image: url(../images/footer_img.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    top: 37px;
+}
+.update_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 36%;
+    width: 17%;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #003366;
+    color: aliceblue;
+    border-radius: 40px;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.footer_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    height: 400px;
+    position: relative;
+    width: 100%;
+    top: 287px;
+    color: white;
+}
+
+.footer_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+    margin: 300px;
+}
+
+.footer_grid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.footer_resources{
+    display:  block;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+    margin: 4px;
+}
+.footer_about {
+    display:  block;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 160px;
+    padding: 20px;
+    margin: 4px; 
+}
+.footer_contact {
+    display:  block;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 160px;
+    padding: 20px;
+    margin: 4px;
+}
+.footer_countries {
+    display:  block;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 160px;
+    padding: 20px;
+    margin: 4px;
+}
+.country_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 190px;
+    height: 120px;
+}
+.footer_header {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.list {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 6px;
+}
+
+.footer {
+    display: block;
+    width: 400px;
+}
+.footer p{
+ padding-top: 8px;
+}
+
+ion-icon {
+    font-size: 18px;
+    padding-top: 8px;
+    color: white;
+}
+
+.rights {
+    display: flex;
+    width: 45%;
+    color: grey;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.rights_img {
+    width: 17px;
+    height: 17px;
+    color: grey;
 }
